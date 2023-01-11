@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bat{
+    width: 600px;
+}
+
+.field:hover .bat{
+    transform: rotate(-50deg);
+    transform-origin: 75% 0%;
+    transition: 0.2s;
+}
+
+.field:hover .ball{
+    transform: translate(1200px,-200px);
+    transition: 1s;
+    transition-delay: 0.3s;
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 595px;
+    top: -180px;
+}
